@@ -1,0 +1,64 @@
+.storiesheader{
+    height: 100px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    margin-right: 410px;
+    margin-left: 240px;
+}
+
+.storypics{
+    display: flex;
+    align-items: center;
+    border-color: aqua;
+    height: 59px;
+    width: 59px;
+    border-radius: 69px;
+}
+.otherstories{
+    align-items: center;
+    display: flex;
+    border-color: aqua;
+    height: 69px;
+    width: 69px;
+    border-radius: 69px;
+    margin-left: 70px;
+}
+.otherstoriesheader{
+    background-color: antiquewhite;
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+.sidebarinsta{
+    position: fixed;
+    left: 0px;
+    bottom:0px;
+    top: 0px;
+    background-color: white;
+    width: 60px;
+   
+}
+.sidebarborderline{
+    position: absolute; 
+    top: 0;
+    right: -185px; 
+    height: 100%; 
+    border-left: 1px solid #dbdbdb; 
+}
+.username{
+    font-family:Funnel sans;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: lighter;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+
+}    
